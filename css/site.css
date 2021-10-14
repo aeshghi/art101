@@ -5,7 +5,7 @@ title{
 }
 
 h1{
-  color: orange;
+  color: blue;
   font-size: 200%;
 }
 
@@ -16,11 +16,21 @@ p{
 }
 
 #intro{
-  background-color: #cccccc;
+  background-color: #CABE07;
+  width: 900px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 30px;
+  border: solid 3px #444444;
+  font-size: 20px;
+}
+
+#labs{
+  background-color: #097FDC;
   width: 500px;
   min-height: 300px;
   padding: 10px;
-  margin: 10px;
-  border: solid 1px #444444;
+  margin: 30px;
+  border: solid 3px #444444;
   font-size: 20px;
 }
