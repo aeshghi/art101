@@ -1,0 +1,33 @@
+h1{
+  color: blue;
+  font-size: 300%;
+}
+
+h2{
+  color: blue;
+  font-size: 200%;
+}
+
+h3{
+  color: brown;
+}
+
+
+p{
+  color: black;
+  font-family: "comic sans";
+  text-identity: 20px;
+  margin-left:   10px;
+}
+
+
+
+#content{
+  background-color: #F1D94F;
+  width: 1250px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 20px;
+  border: solid 4px #444444;
+  font-size: 20px;
+}
