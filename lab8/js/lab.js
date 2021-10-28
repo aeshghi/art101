@@ -21,11 +21,11 @@ array = [12,10,9,15,22,16,7];
 console.log("Array: ", array);
 
 //calling map function to try all the elements of array in the function sqr()
-var result = array.map(sqr);
+var result1 = array.map(sqr);
 console.log("Square of array: ", result);
 
 
-var result = array.map(function(x){
+var result2 = array.map(function(x){
     return x ** 0.5;
 });
 console.log("Square root of the array: ", result);
