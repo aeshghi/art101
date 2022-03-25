@@ -5,7 +5,7 @@
 * License: public domain
 **********************************/
 
-//using getElemeentById() to find the output div and assign it to outputEl
+//using getElementById() to find the output div and assign it to outputEl
 var outputEl = document.getElementById("output");
 
 //Create new element and assign it to neew1El

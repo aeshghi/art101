@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 15 - AJAX</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="js/lab.js" defer></script>
+	<script
+	  src="https://code.jquery.com/jquery-3.6.0.min.js"
+	  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	  crossorigin="anonymous"></script>
+	<script>
+		$.get( "/status", function( data ) {
+			$("#output").html(data);
+		}).fail(function(){
+				alert("There was an error");
+		});
+	</script>
+</head>
+<body>
+	<h1>Challenges</h1>
+	<p> </p>
+
+
+	<h1>Problems</h1>
+	<p> </p>
+
+
+	<h3>Results</h3>
+	<p> </p>
+
+<div id="output">
+
+<button id="activate" onclick="loadDoc()"> Reload </button>
+</div>
+
+
+
+</body>
+</html>
